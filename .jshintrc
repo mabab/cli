@@ -1,6 +1,6 @@
 {
   "node": true,
-  "quotmark": "single",
+  // "quotmark": "single",
   "curly": true,
   "eqeqeq": true,
   "forin": true,
@@ -11,9 +11,10 @@
   "noempty": true,
   "nonbsp": true,
   "unused": true,
-  "strict": true,
+  // "strict": true,
   "maxdepth": 3,
-  "maxlen": 100,
-  "nomen": true,
-  "trailing": true
+  // "maxlen": 400,
+  // "nomen": true,
+  "trailing": true,
+  "esversion": 8
 }

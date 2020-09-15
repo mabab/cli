@@ -6,7 +6,7 @@ var jscs        = require('gulp-jscs');
 var jshint      = require('gulp-jshint');
 var mocha       = require('gulp-mocha');
 var path        = require('path');
-var runSequence = require('run-sequence');
+var runSequence = require('gulp4-run-sequence');
 
 gulp.task('default', function (done) {
   runSequence('lint', 'test', done);
@@ -30,7 +30,7 @@ gulp.task('lint-code', function () {
       '!./lib/assets/**/*.js',
       './test/**/*.js',
       '!./test/support/tmp/**/*.js'
-    ])
+    ], {allowEmpty: true})
     .pipe(jscs())
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
