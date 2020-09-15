@@ -8,7 +8,7 @@
     "cli-color": "~1.2.0",
     "findup-sync": "^1.0.0",
     "fs-extra": "^4.0.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-help": "~1.6.1",
     "js-beautify": "^1.6.11",
     "lodash": "^4.17.4",
